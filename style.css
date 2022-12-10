@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: hsl(30, 38%, 92%);
+  color: hsl(228, 12%, 48%);
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  background-color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.product-image {
+  width: 50%;
+  border-radius: 10px 0px 0 10px;
+}
+
+.text-side div {
+  margin: 10px 0;
+}
+.text-side {
+  margin: 20px 30px;
+  padding: 0;
+}
+
+.product-category {
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.product-name {
+  color: hsl(212, 21%, 14%);
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+}
+
+.product-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.price {
+  display: inline-block;
+}
+
+.current-price {
+  color: hsl(158, 36%, 37%);
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  display: inline-block;
+}
+
+.old-price {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  display: inline-block;
+  position: relative;
+  left: 20px;
+  bottom: 5px;
+}
+
+.add-to-cart {
+  margin: 0;
+  height: 40px;
+  display: flex;
+  flex-flow: column;
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-size: 2vh;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1 1 auto;
+}
+.btn:hover {
+  background-color: #1a4031;
+  cursor: pointer;
+}
+
+.cart-svg {
+  margin-right: 10px;
+  vertical-align: middle;
+}
